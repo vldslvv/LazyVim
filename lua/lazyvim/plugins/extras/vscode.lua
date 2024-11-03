@@ -69,7 +69,21 @@ return {
     },
   },
   {
-    "LazyVim/LazyVim",
+    "snacks.nvim",
+    opts = {
+      bigfile = { enabled = false },
+      dashboard = { enabled = false },
+      indent = { enabled = false },
+      input = { enabled = false },
+      notifier = { enabled = false },
+      picker = { enabled = false },
+      quickfile = { enabled = false },
+      scroll = { enabled = false },
+      statuscolumn = { enabled = false },
+    },
+  },
+  {
+    "vldslvv/LazyVim",
     config = function(_, opts)
       opts = opts or {}
       -- disable the colorscheme
