@@ -77,7 +77,7 @@ return {
     },
   },
   {
-    "LazyVim/LazyVim",
+    "vldslvv/LazyVim",
     config = function(_, opts)
       opts = opts or {}
       -- disable the colorscheme
